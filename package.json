@@ -1,0 +1,19 @@
+{
+  "name": "drinks-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusotterstad/stock-bar-API.git"
+  },
+  "author": "Marcus Otterstad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusotterstad/stock-bar-API/issues"
+  },
+  "homepage": "https://github.com/marcusotterstad/stock-bar-API#readme"
+}
