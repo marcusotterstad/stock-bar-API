@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha test/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/marcusotterstad/stock-bar-API/issues"
   },
-  "homepage": "https://github.com/marcusotterstad/stock-bar-API#readme"
+  "homepage": "https://github.com/marcusotterstad/stock-bar-API#readme",
+  "dependencies": {
+    "@types/pg": "^8.6.5",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "pg": "^8.7.3",
+    "supertest": "^6.2.4"
+  }
 }
